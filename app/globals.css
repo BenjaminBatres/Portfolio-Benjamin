@@ -13,7 +13,6 @@
   --color-Blue-dark: #0064D8;
   --color-Blue-glow: #006EFF;
 
-  --text: #F5F7FA;
   --color-Secondary: #C5CAD3;
   --color-Muted: #8D96A5;
 
@@ -25,9 +24,15 @@
 
 }
 
-
+html {
+  scroll-behavior: smooth;
+}
 body {
   background-color: #08090d;
   color: #F5F7FA;
   font-family: var(--font-inter);
+}
+
+.swiper-wrapper {
+  transition-timing-function: linear !important;
 }

@@ -38,14 +38,14 @@ export default function ProjectSection() {
                   <Link
                     href={project.link}
                     target="_blank"
-                    className="py-4 bg-Blue rounded-t-xl sm:rounded-l-xl text-center font-medium hover:bg-Blue-dark duration-300"
+                    className="py-4 bg-Blue rounded-t-xl sm:rounded-tr-none sm:rounded-l-xl text-center font-medium hover:bg-Blue-dark duration-300"
                   >
                     Live Site
                   </Link>
                   <Link
-                    href={project.link}
+                    href={project.githubLink}
                     target="_blank"
-                    className="py-4 bg-Gray rounded-b-xl sm:rounded-r-xl text-center font-medium hover:bg-Gray/80 duration-300"
+                    className="py-4 bg-Gray rounded-b-xl sm:rounded-bl-none sm:rounded-r-xl text-center font-medium hover:bg-Gray/80 duration-300"
                   >
                     Github
                   </Link>

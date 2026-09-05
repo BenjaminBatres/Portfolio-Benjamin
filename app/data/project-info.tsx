@@ -1,36 +1,15 @@
 // SaveSpend images
 import saveSpendHome from "../assets/images/saveSpend-images/SaveSpendHome-img.png";
-import saveSpendImg1 from "../assets/images/saveSpend-images/SaveSpend-img1.png";
-import saveSpendImg2 from "../assets/images/saveSpend-images/SaveSpend-img2.png";
-import saveSpendImg3 from "../assets/images/saveSpend-images/SaveSpend-img3.png";
-import saveSpendImg4 from "../assets/images/saveSpend-images/SaveSpend-img4.png";
 // Audio e-commerce images
 import audioEcommerce from "../assets/images/audio-e-commerce/audio-e-commerce.png"
 // Designer images
 import ecommercestore from "../assets/images/e-commerce-images/e-commerce-project.png";
-import designer1 from "../assets/images/e-commerce-images/Designer1.png";
-import designer2 from "../assets/images/e-commerce-images/Designer2.png";
-import designer3 from "../assets/images/e-commerce-images/Designer3.png";
-import designer4 from "../assets/images/e-commerce-images/Designer4.png";
-// Ultraverse images
+// Recipe Finder images
 import recipeFinder from "../assets/images/recipe-finder-images/Recipe-finder.png"
-import ultramarket from "../assets/images/ultraverse-images/UltraverseHome.png";
-import ultraverse1 from "../assets/images/ultraverse-images/Ultraverse1.png";
-import ultraverse2 from "../assets/images/ultraverse-images/Ultraverse2.png";
-import ultraverse3 from "../assets/images/ultraverse-images/Ultraverse3.png";
-import ultraverse4 from "../assets/images/ultraverse-images/Ultraverse4.png";
 // Summarist images
-import summarist1 from "../assets/images/summarist-images/Summarist1.png";
-import summarist2 from "../assets/images/summarist-images/Summarist2.png";
-import summarist3 from "../assets/images/summarist-images/Summarist3.png";
-import summarist4 from "../assets/images/summarist-images/Summarist4.png";
 import summaristHomeImg from "../assets/images/summarist-images/SummaristHome-img.png";
 // Movie images
 import movieapi from "../assets/images/movieApi-images/MovieAPI.jpg";
-import movie1 from "../assets/images/movieApi-images/Movie1.png";
-import movie2 from "../assets/images/movieApi-images/Movie2.png";
-import movie3 from "../assets/images/movieApi-images/Movie3.png";
-import movie4 from "../assets/images/movieApi-images/Movie4.png";
 
 const projectsInfo = [
   {
@@ -44,25 +23,6 @@ const projectsInfo = [
     link: "https://save-spend.vercel.app/",
     githubLink: 'https://github.com/BenjaminBatres/SaveSpend',
     techStack: ["Next.js", "JavaScript","Tailwind CSS", "OpenAI", "Firebase", "Express.js"],
-    info: [
-      {
-        title: "Client",
-        subTitle: "SaveSpend",
-      },
-      {
-        title: "Industry",
-        subTitle: "A.I Fianace",
-      },
-      {
-        title: "Preview",
-        subTitle: "Live site",
-      },
-      {
-        title: "Timeline",
-        subTitle: "Aug 2025 - Oct 2025",
-      },
-    ],
-    images: [saveSpendImg1, saveSpendImg2, saveSpendImg3, saveSpendImg4],
   },
   {
     id: "audio-e-commerce",
@@ -86,6 +46,7 @@ const projectsInfo = [
     image: ecommercestore,
     link: "https://designer-product-e-commerce.vercel.app/",
     techStack: ["Next.js", "JavaScript","Tailwind CSS", "REST API", "Framer Motion", "Redux"],
+     githubLink: 'https://github.com/BenjaminBatres/Designer-product-e-commerce',
   },
   {
     id: "recipie-finder",
@@ -108,16 +69,13 @@ const projectsInfo = [
     techStack: ["Next.js", "JavaScript","CSS", "REST API", "Swiper", "Firebase", "Redux", "Stripe Payment"],
   },
   {
-    id: "movie-api",
-    name: "Movie Api",
-    subtitle: "Search for you favorite movies",
-    description:
-      "Movie website that allows users to search for movies, view details, and watch trailers using the TMDB API.",
-    descriptionTablet: "Movie website",
+    id: "freelance",
+    name: "Freelance Portfolio",
     overView: "Created a website that displays any movie that the user searches for and includes a sorting option that goes from newest to oldest or vice versa.",
     image: movieapi,
     link: "https://movie-api-v2-alpha.vercel.app/",
     techStack: ["Next.js", "JavaScript","Tailwind CSS", "REST API", "Framer Motion"],
+     githubLink: 'https://github.com/BenjaminBatres/Recipe-Finder',
   },
 ];
 

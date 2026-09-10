@@ -1,5 +1,7 @@
 // SaveSpend images
 import saveSpendHome from "../assets/images/saveSpend-images/SaveSpendHome-img.png";
+// Batres web deisgn
+import batresWebDesign from "../assets/images/Batreswebdesign.png"
 // Audio e-commerce images
 import audioEcommerce from "../assets/images/audio-e-commerce/audio-e-commerce.png"
 // Designer images
@@ -8,8 +10,6 @@ import ecommercestore from "../assets/images/e-commerce-images/e-commerce-projec
 import recipeFinder from "../assets/images/recipe-finder-images/Recipe-finder.png"
 // Summarist images
 import summaristHomeImg from "../assets/images/summarist-images/SummaristHome-img.png";
-// Movie images
-import movieapi from "../assets/images/movieApi-images/MovieAPI.jpg";
 
 const projectsInfo = [
   {
@@ -23,6 +23,15 @@ const projectsInfo = [
     link: "https://save-spend.vercel.app/",
     githubLink: 'https://github.com/BenjaminBatres/SaveSpend',
     techStack: ["Next.js", "JavaScript","Tailwind CSS", "OpenAI", "Firebase", "Express.js"],
+  },
+  {
+    id: "freelance",
+    name: "Batres Web Design",
+    overView: "I build professional, mobile-friendly websites that help local businesses look credible online and turn visitors into customers.",
+    image: batresWebDesign,
+    link: "https://batreswebdesign.com",
+    techStack: ["Next.js", "TypeScript","Tailwind CSS", "Framer Motion"],
+     githubLink: 'https://github.com/BenjaminBatres/BatresWebDesign',
   },
   {
     id: "audio-e-commerce",
@@ -67,15 +76,6 @@ const projectsInfo = [
     link: "https://ben-internship-v2.vercel.app/",
     githubLink: 'https://github.com/BenjaminBatres/Ben-InternshipV2',
     techStack: ["Next.js", "JavaScript","CSS", "REST API", "Swiper", "Firebase", "Redux", "Stripe Payment"],
-  },
-  {
-    id: "freelance",
-    name: "Freelance Portfolio",
-    overView: "Created a website that displays any movie that the user searches for and includes a sorting option that goes from newest to oldest or vice versa.",
-    image: movieapi,
-    link: "https://movie-api-v2-alpha.vercel.app/",
-    techStack: ["Next.js", "JavaScript","Tailwind CSS", "REST API", "Framer Motion"],
-     githubLink: 'https://github.com/BenjaminBatres/Recipe-Finder',
   },
 ];
 

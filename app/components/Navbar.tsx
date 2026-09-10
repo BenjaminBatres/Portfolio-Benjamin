@@ -2,7 +2,7 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 import Menu from "./Menu";
 import Navlink from "./ui/Navlink";
 import SocialLink from "./ui/SocialLink";
-
+import * as motion from "motion/react-client";
 export default function Navbar() {
   const links = [
     {
@@ -12,10 +12,6 @@ export default function Navbar() {
     {
       path: "#projects",
       name: "Projects",
-    },
-    {
-      path: "#about",
-      name: "About",
     },
     {
       path: "#contact",
@@ -34,8 +30,14 @@ export default function Navbar() {
     },
   ];
   return (
-    <div className="pt-8 px-5 sm:px-8">
-      <nav className="flex justify-between items-center max-w-360 mx-auto border border-Muted bg-Gray px-6 py-4 rounded-full relative">
+    <div className="fixed top-5 w-full z-50 px-5 sm:px-8">
+      <motion.nav
+        initial={{ opacity: 0, y: -25 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: "100px" }}
+        transition={{ duration: 0.5 }}
+        className="flex justify-between items-center max-w-360 mx-auto border border-Muted bg-Gray px-6 py-4 rounded-full relative"
+      >
         <h1 className="text-xl sm:text-2xl lg:text-[32px] font-extralight uppercase">
           Ben Batres
         </h1>
@@ -51,7 +53,7 @@ export default function Navbar() {
         </ul>
 
         <Menu links={links} socialLinks={socialLinks} />
-      </nav>
+      </motion.nav>
     </div>
   );
 }

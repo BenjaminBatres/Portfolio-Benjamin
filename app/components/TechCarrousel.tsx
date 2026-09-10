@@ -66,7 +66,13 @@ export default function TechCarrousel() {
     },
   ];
   return (
-    <div className="relative overflow-hidden">
+    <motion.div
+      initial={{ opacity: 0 }}
+      whileInView={{ opacity: 1 }}
+      viewport={{ once: true, margin: "-100px" }}
+      transition={{ delay: 0.2, duration: 0.5 }}
+      className="relative overflow-hidden"
+    >
       <Swiper
         slidesPerView="auto"
         speed={3000}
@@ -93,6 +99,6 @@ export default function TechCarrousel() {
       <div className="pointer-events-none absolute inset-y-0 left-0 w-10 bg-linear-to-r from-black to-transparent z-10" />
 
       <div className="pointer-events-none absolute inset-y-0 right-0 w-10 bg-linear-to-l from-black to-transparent z-10" />
-    </div>
+    </motion.div>
   );
 }

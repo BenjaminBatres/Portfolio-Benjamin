@@ -1,36 +1,24 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Ben Batres — Portfolio Website
 
-## Getting Started
+A clean, responsive, and modern portfolio application designed to showcase my work, skills, and technical projects as a Frontend Developer.
 
-First, run the development server:
+![Portfolio Preview](./public/preview.png) 
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Demo
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Check out the live website: [benjaminbatres.dev](https://me@benjaminbatres.dev)
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## ✨ Features
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+- **Responsive Design:** Optimized for seamless viewing across mobile, tablet, and desktop screens.
+- **Project Showcase:** Highlights real-world web applications with detailed tech stacks, descriptions, and links to live demos and source code.
+- **Interactive UI:** Smooth transitions and modern layout design built using Framer Motion and Tailwind CSS.
+- **Contact Integration:** Built-in contact form and direct links for recruiters and potential collaborators to get in touch.
 
-## Learn More
+## 🛠️ Tech Stack
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- **Framework:** [Next.js](https://nextjs.org/)
+- **Language:** [TypeScript](https://www.typescriptlang.org/) / [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **State & Animations:** [Redux](https://redux.js.org/), [Framer Motion](https://www.framer.com/motion/)
+- **Backend & Database:** [Firebase](https://firebase.google.com/)

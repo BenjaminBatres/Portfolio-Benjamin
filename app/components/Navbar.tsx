@@ -1,4 +1,4 @@
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaFilePdf, FaGithub, FaLinkedin, FaRegFilePdf  } from "react-icons/fa";
 import Menu from "./Menu";
 import Navlink from "./ui/Navlink";
 import SocialLink from "./ui/SocialLink";
@@ -27,6 +27,10 @@ export default function Navbar() {
     {
       path: "https://www.linkedin.com/in/benjamin-batres-9216b5329/",
       icon: <FaLinkedin />,
+    },
+    {
+      path: "/Resume/Ben_Batres-CV.pdf",
+      icon: <FaFilePdf />,
     },
   ];
   return (

@@ -27,10 +27,7 @@ export default function HeroSection() {
             transition={{ delay: 0.3, duration: 0.5 }}
             className="xl:text-lg text-center lg:text-left max-w-xl mb-6"
           >
-            I build modern, responsive web experiences that combine clean design
-            with intuitive functionality. I'm passionate about solving problems,
-            learning new technologies, and creating digital experiences that
-            provide real value to users.
+            Frontend Developer with hands-on experience building responsive web applications using JavaScript, TypeScript, React, and Next.js. Experienced in REST API integration, asynchronous data handling, reusable component development, and state management with Redux. Focused on developing interactive user interfaces, writing maintainable code, and delivering efficient web experiences.
           </motion.p>
 
           <motion.div
